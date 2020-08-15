@@ -1,7 +1,8 @@
 package enityModel;
 
+@Entity
 public class AddressComplete {
-    private Long aid;//auto increment 
+   private Long aid;//auto increment 
    private String address_LineOne;
    private String address_LineTwo;
    private String address_Landmark;
